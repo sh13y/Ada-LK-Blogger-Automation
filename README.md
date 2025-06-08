@@ -50,7 +50,7 @@ The script will:
 
 ## Notes
 
-- The script uses the `<!-- STATIC-START -->` and `<!-- STATIC-END -->
+- The script uses the `<!-- STATIC-START -->` and `<!-- STATIC-END -->`
 
 
 ---
