@@ -30,6 +30,10 @@ jobs:
       run: |
         echo '${{ secrets.GOOGLE_CREDENTIALS }}' > credentials.json
         
+    - name: Create token.pickle
+      run: |
+        echo '${{ secrets.TOKEN_PICKLE }}' | base64 -d > token.pickle
+        
     - name: Create initial news_log.json if not exists
       run: |
         if [ ! -f news_log.json ]; then
