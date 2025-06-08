@@ -36,7 +36,6 @@ ENV/
 # Project specific
 credentials.json
 token.pickle
-news_log.json
 failed_posts.json
 *.log
 
