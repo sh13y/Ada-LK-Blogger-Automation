@@ -108,7 +108,11 @@ def post_to_blogger(title, content, image_url=None):
         paragraphs = content.split('\n\n')
         for para in paragraphs:
             if para.strip():  # Only add non-empty paragraphs
-                formatted_content += f'<p style="margin-bottom: 15px;">{para.strip()}</p>'
+                # Add extra line break after "Published on" line
+                if para.strip().startswith('Published on'):
+                    formatted_content += f'<p style="margin-bottom: 15px;">{para.strip()}</p><br>'
+                else:
+                    formatted_content += f'<p style="margin-bottom: 15px;">{para.strip()}</p>'
         
         formatted_content += '</div>'
         
