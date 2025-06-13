@@ -2,7 +2,7 @@ name: Blogger News Poster
 
 on:
   schedule:
-    - cron: '0 */3 * * *'  # Runs every 3 hours
+    - cron: '0 * * * *'  # Runs every hour
   workflow_dispatch:  # Allows manual triggering
 
 jobs:

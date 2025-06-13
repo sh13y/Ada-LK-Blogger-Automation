@@ -276,38 +276,38 @@ def is_post_already_posted(url, title):
     return False
 
 def format_news_to_markdown(news_items):
-    markdown_content = ''
+    markdown_content = ""
     for item in news_items:
         try:
-            news_date = datetime.strptime(item['date'], '%d %m %Y %H:%M:%S').strftime('%B %d, %Y, %I:%M %p')
+            news_date = datetime.strptime(item['date'], "%d %m %Y %H:%M:%S").strftime("%B %d, %Y, %I:%M %p")
         except ValueError:
             news_date = item['date']  # Use raw date if parsing fails
 
-        markdown_content += f'\n\n---\n\n'
-        markdown_content += f'## {item["title"]}\n\n'
-        markdown_content += f'Published on {news_date}\n\n'
-        markdown_content += f'{item["full_content"]}'
+        markdown_content += f"\n\n---\n\n"
+        markdown_content += f"## {item['title']}\n\n"
+        markdown_content += f"Published on {news_date}\n\n"
+        markdown_content += f"{item['full_content']}"
 
         if item['image_url']:
-            markdown_content += f'\n\n![Image]({item["image_url"]})\n\n'
+            markdown_content += f"\n\n![Image]({item['image_url']})\n\n"
 
     return markdown_content
 
 def update_news_md(new_news):
-    static_content = ''
-    dynamic_content = ''
+    static_content = ""
+    dynamic_content = ""
 
     if os.path.exists(MARKDOWN_FILE):
-        with open(MARKDOWN_FILE, 'r', encoding='utf-8') as f:
+        with open(MARKDOWN_FILE, "r", encoding="utf-8") as f:
             content = f.read()
-            if '<!-- STATIC-START -->' in content and '<!-- STATIC-END -->' in content:
-                static_content = content.split('<!-- STATIC-END -->')[0] + '<!-- STATIC-END -->'
-                dynamic_content = content.split('<!-- STATIC-END -->')[1].strip()
+            if "<!-- STATIC-START -->" in content and "<!-- STATIC-END -->" in content:
+                static_content = content.split("<!-- STATIC-END -->")[0] + "<!-- STATIC-END -->"
+                dynamic_content = content.split("<!-- STATIC-END -->")[1].strip()
 
     new_news_markdown = format_news_to_markdown(new_news)
-    updated_content = static_content + '\n' + new_news_markdown + '\n' + dynamic_content
+    updated_content = static_content + "\n" + new_news_markdown + "\n" + dynamic_content
 
-    with open(MARKDOWN_FILE, 'w', encoding='utf-8') as f:
+    with open(MARKDOWN_FILE, "w", encoding="utf-8") as f:
         f.write(updated_content)
 
 def retry_failed_posts(failed_posts, max_retries=3):
@@ -397,7 +397,7 @@ def main():
         
         for news in new_news:
             try:
-                news_date = datetime.strptime(news['date'], '%d %m %Y %H:%M:%S').strftime('%B %d, %Y, %I:%M %p')
+                news_date = datetime.strptime(news['date'], "%d %m %Y %H:%M:%S").strftime("%B %d, %Y, %I:%M %p")
             except ValueError:
                 news_date = news['date']
             
@@ -427,6 +427,9 @@ def main():
         # Update log with successfully posted articles
         if new_posted_articles:
             update_log(new_posted_articles)
+            # Update README.md with new articles
+            update_news_md(new_news)
+            print(f"Updated README.md with {len(new_news)} new articles")
         
         # Retry failed posts
         if failed_posts:
@@ -453,7 +456,7 @@ def main():
                 
                 # Save failed posts to a file for manual review
                 failed_posts_file = "failed_posts.json"
-                with open(failed_posts_file, 'w', encoding='utf-8') as f:
+                with open(failed_posts_file, "w", encoding="utf-8") as f:
                     json.dump(still_failed, f, indent=4, ensure_ascii=False)
                 print(f"\nFailed posts have been saved to {failed_posts_file} for manual review")
         else:
@@ -464,5 +467,5 @@ def main():
     else:
         print("No new news to add.")
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main() 
