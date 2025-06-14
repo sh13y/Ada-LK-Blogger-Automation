@@ -163,117 +163,71 @@ def fetch_full_content(news_url):
     response = requests.get(news_url)
     if response.status_code != 200:
         print(f"Failed to fetch content from {news_url}.")
-        return None
+        return ""
 
-    soup = BeautifulSoup(response.text, 'html.parser')
-    content = soup.find('div', class_='single-body-wrap')
+    soup = BeautifulSoup(response.text, "html.parser")
+    content = soup.find("div", class_="single-body-wrap")
 
     if content:
-        paragraphs = content.find_all('p')
-        full_content = '\n\n'.join([para.get_text(strip=True) for para in paragraphs])
+        paragraphs = content.find_all("p")
+        full_content = "\n\n".join([para.get_text(strip=True) for para in paragraphs])
         return full_content
     else:
         return "Full content not found."
 
 def fetch_news():
-    print("Fetching news from Ada LK...")
     response = requests.get(NEWS_URL)
     if response.status_code != 200:
-        print(f"Failed to fetch news. Status code: {response.status_code}")
+        print("Failed to fetch news.")
         return []
 
-    print("Successfully fetched the webpage")
-    soup = BeautifulSoup(response.text, 'html.parser')
+    soup = BeautifulSoup(response.text, "html.parser")
     news_items = []
 
-    news_divs = soup.find_all('div', class_='row bg-white cat-b-row mt-3')
-    print(f"Found {len(news_divs)} news items on the page")
+    for news_div in soup.find_all("div", class_="row bg-white cat-b-row mt-3"):
+        link = news_div.find("a", href=True)["href"]
+        title = news_div.find("h5").get_text(strip=True)
+        date = news_div.find("h6").get_text(strip=True).replace("•", "").strip()
+        short_desc = news_div.find("p", class_="cat-b-text").get_text(strip=True)
+        
+        # Handle missing images safely
+        image_tag = news_div.find("img")
+        image_url = image_tag["src"] if image_tag and "src" in image_tag.attrs else None
 
-    for news_div in news_divs:
-        try:
-            link = news_div.find('a', href=True)['href']
-            title = news_div.find('h5').get_text(strip=True)
-            date = news_div.find('h6').get_text(strip=True).replace('•', '').strip()
-            short_desc = news_div.find('p', class_='cat-b-text').get_text(strip=True)
-            
-            # Handle missing images safely
-            image_tag = news_div.find('img')
-            image_url = image_tag['src'] if image_tag and 'src' in image_tag.attrs else None
+        # Fetch the full content for the news
+        full_content = fetch_full_content(link)
 
-            print(f"\nProcessing news item: {title}")
-            print(f"Link: {link}")
-            print(f"Date: {date}")
+        news_items.append({
+            "link": link,
+            "title": title,
+            "date": date,
+            "short_desc": short_desc,
+            "image_url": image_url,
+            "full_content": full_content
+        })
 
-            # Fetch the full content for the news
-            full_content = fetch_full_content(link)
-            if full_content:
-                print("Successfully fetched full content")
-            else:
-                print("Failed to fetch full content")
-
-            news_items.append({
-                'link': link,
-                'title': title,
-                'date': date,
-                'short_desc': short_desc,
-                'image_url': image_url,
-                'full_content': full_content
-            })
-        except Exception as e:
-            print(f"Error processing news item: {str(e)}")
-
-    print(f"\nTotal news items processed: {len(news_items)}")
     return news_items
 
 def read_log():
-    try:
-        if not os.path.exists(LOG_FILE):
-            print(f"Log file {LOG_FILE} does not exist. Creating new log file.")
-            return []
-            
-        with open(LOG_FILE, 'r', encoding='utf-8') as f:
-            content = f.read().strip()
-            if not content:  # If file is empty
-                print("Log file is empty.")
-                return []
-            return json.load(f)
-    except json.JSONDecodeError:
-        print(f"Error reading log file. Creating new log file.")
+    if not os.path.exists(LOG_FILE):
         return []
-    except Exception as e:
-        print(f"Unexpected error reading log file: {str(e)}")
-        return []
+    with open(LOG_FILE, "r", encoding="utf-8") as f:
+        return json.load(f)
 
 def update_log(new_posts):
-    try:
-        # Read existing posts
-        existing_posts = read_log()
-        
-        # Add new posts
-        all_posts = existing_posts + new_posts
-        
-        # Remove duplicates while preserving order
-        unique_posts = []
-        seen_urls = set()
-        for post in all_posts:
-            if post['url'] not in seen_urls:
-                seen_urls.add(post['url'])
-                unique_posts.append(post)
-        
-        # Write back to file
-        with open(LOG_FILE, 'w', encoding='utf-8') as f:
-            json.dump(unique_posts, f, indent=4, ensure_ascii=False)
-            
-        print(f"Updated log file with {len(new_posts)} new posts. Total posts in log: {len(unique_posts)}")
-    except Exception as e:
-        print(f"Error updating log file: {str(e)}")
+    if os.path.exists(LOG_FILE):
+        with open(LOG_FILE, "r", encoding="utf-8") as f:
+            logged_data = json.load(f)
+    else:
+        logged_data = []
 
-def is_post_already_posted(url, title):
-    logged_posts = read_log()
-    for post in logged_posts:
-        if post['url'] == url or post['title'] == title:
-            return True
-    return False
+    # Add new posts while avoiding duplicates
+    for post in new_posts:
+        if not any(existing_post['url'] == post['url'] or existing_post['title'] == post['title'] for existing_post in logged_data):
+            logged_data.append(post)
+
+    with open(LOG_FILE, "w", encoding="utf-8") as f:
+        json.dump(logged_data, f, indent=4)
 
 def format_news_to_markdown(news_items):
     markdown_content = ""
@@ -376,13 +330,14 @@ def main():
             print(f"Response content: {e.response.content}")
         return
 
+    # Fetch news and check for duplicates
     news_items = fetch_news()
-    print(f"\nFetched {len(news_items)} news items")
+    logged_posts = read_log()
     
     # Filter out already posted news
     new_news = []
     for news in news_items:
-        if not is_post_already_posted(news['link'], news['title']):
+        if not any(post['url'] == news['link'] or post['title'] == news['title'] for post in logged_posts):
             new_news.append(news)
         else:
             print(f"Skipping already posted article: {news['title']}")
@@ -395,7 +350,12 @@ def main():
         failed_posts = []
         new_posted_articles = []
         
-        for news in new_news:
+        for i, news in enumerate(new_news):
+            # Add 10-second delay between posts, except for the first post
+            if i > 0:
+                print("\nWaiting 10 seconds before posting next article...")
+                time.sleep(10)
+                
             try:
                 news_date = datetime.strptime(news['date'], "%d %m %Y %H:%M:%S").strftime("%B %d, %Y, %I:%M %p")
             except ValueError:
