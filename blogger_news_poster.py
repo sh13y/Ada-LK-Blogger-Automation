@@ -242,6 +242,9 @@ def main():
     new_news = [news for news in news_items if news['link'] not in logged_urls]
 
     if new_news:
+        # Track successfully posted articles
+        successfully_posted_news = []
+        
         # Post to Blogger with 10-second delay between posts
         for i, news in enumerate(new_news):
             if i > 0:  # Add delay after first post
@@ -254,18 +257,25 @@ def main():
                 news_date = news['date']
             
             content = f"Published on {news_date}\n\n{news['full_content']}"
-            post_id = post_to_blogger(news['title'], content, news['image_url'])
-            
-            if post_id:
-                print(f"Successfully posted to Blogger: {news['title']}")
-            else:
-                print(f"Failed to post to Blogger: {news['title']}")
+            try:
+                post_id = post_to_blogger(news['title'], content, news['image_url'])
+                if post_id:
+                    print(f"Successfully posted to Blogger: {news['title']}")
+                    successfully_posted_news.append(news)
+                else:
+                    print(f"Failed to post to Blogger: {news['title']}")
+            except Exception as e:
+                print(f"Error posting to Blogger: {str(e)}")
+                print(f"Skipping README update for this article...")
 
-        # Update log and README
-        new_urls = [news['link'] for news in new_news]
-        update_log(new_urls)
-        update_news_md(new_news)
-        print(f"Added {len(new_news)} new news articles to README.md.")
+        # Only update log and README for successfully posted articles
+        if successfully_posted_news:
+            new_urls = [news['link'] for news in successfully_posted_news]
+            update_log(new_urls)
+            update_news_md(successfully_posted_news)
+            print(f"Added {len(successfully_posted_news)} new news articles to README.md.")
+        else:
+            print("No articles were successfully posted to Blogger. README.md and log were not updated.")
     else:
         print("No new news to add.")
 
