@@ -56,6 +56,31 @@ The script will:
 
 ---
 
+## ’Starlink’  ශ්‍රී ලංකාව තුළ ක්‍රියාත්මක බව  මස්ක් තහවුරු කරයි
+
+
+*Published on: July 02, 2025, 01:36 PM*
+
+'Starlink' අන්තර්ජාල සේවාව මේ වන විට ශ්‍රී ලංකාව තුළ ක්‍රියාත්මක බව  ඊලොන් මස්ක් සිය "X" ගිණුමෙහි සටහනත් තබමින් සඳහන් කර තිබේ.
+
+
+
+
+
+
+
+Starlink now available in Sri Lanka!
+
+
+
+
+
+![Image](https://bmkltsly13vb.compat.objectstorage.ap-mumbai-1.oraclecloud.com/cdn.ada.lk/assets/uploads/image_5ca5832c26.jpg)
+
+
+
+---
+
 ## ස්ටාර් ලින්ක් පහසුකම තවත් මාස දෙකකින්
 
 
