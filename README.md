@@ -56,6 +56,33 @@ The script will:
 
 ---
 
+## කාසියේ වාසිය ශ්‍රී ලංකාවට - දසුන්ට සහ චාමිකට අවස්ථාව
+
+
+*Published on: July 10, 2025, 06:31 PM*
+
+සංචාරක බංග්ලාදේශ කණ්ඩායමට එරෙහි පළමු විස්සයි 20 ක්‍රිකට් තරගයේ කාසියේ වාසිය දිනා ගැනීමට ශ්‍රී ලංකා කණ්ඩායම මීට සුළු මොහොතකට පෙර සමත් විය.
+
+ඒ අනුව පළමුවෙන් පන්දු යැවීමට නායක චරිත් අසලංක තීරණය කළේය.
+
+මෙම තරගය පස්වරු 07ට ආරම්භ වීමට නියමිතව ඇත.
+
+අද තරගය සඳහා දසුන් ශානක සහ චාමික කරුණාරත්න ක්‍රීඩා කරන බව නායක චරිත් අසලංක පැවසීය.
+
+Sri Lanka XI: 1 Pathum Nissanka, 2 Kusal Mendis (wk), 3 Kusal Perera, 4 Avishka Fernando, 5 Charith Asalanka (capt), 6 Dasun Shanaka, 7 Chamika Karunaratne, 8 Jeffrey Vandersay, 9 Maheesh Theekshana, 10 Nuwan Thushara, 11 Binura Fernando
+
+Bangladesh XI: 1 Tanzid Hasan, 2 Parvez Hossain Emon, 3 Litton Das (capt & wk), 4 Naim Sheikh 5 Towhid Hridoy, 6 Shamim Hossain, 7 Mehidy Hasan Miraz, 8 Tanzim Hasan, 9 Rishad Hossain, 10 Taskin Ahmed, 11 Mohammad Saifuddin
+
+
+
+
+
+![Image](https://bmkltsly13vb.compat.objectstorage.ap-mumbai-1.oraclecloud.com/cdn.ada.lk/assets/uploads/image_990d841d2d.jpg)
+
+
+
+---
+
 ## ඇමරිකානු බදු සියයට 44 සිට සියයට 30 දක්වා අඩු කර ගැනීම පිළිබඳ වාණිජ මණ්ඩලයේ ප්‍රසාදය
 
 
