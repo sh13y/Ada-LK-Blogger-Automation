@@ -56,6 +56,27 @@ The script will:
 
 ---
 
+## ආනයනික කිරිපිටි මිල ඉහළට
+
+
+*Published on: July 10, 2025, 10:39 AM*
+
+ආනයනික කිරිපිටි ග්‍රෑම් 400 පැකට්ටුවක මිල රුපියල් 100කින් ඉහළ දමා තිබේ.
+
+ඒ අනුව ග්‍රෑම් 400 කිරිපිටි පැකට්ටුවක නව මිල රුපියල් 1,200ක් වේ.
+
+
+
+
+
+
+
+![Image](https://bmkltsly13vb.compat.objectstorage.ap-mumbai-1.oraclecloud.com/cdn.ada.lk/assets/uploads/image_20846b06f0.jpg)
+
+
+
+---
+
 ## ඉදිරි සති කීපයේ වියළි කාලගුණයක්
 
 
