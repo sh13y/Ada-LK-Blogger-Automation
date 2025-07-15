@@ -56,6 +56,25 @@ The script will:
 
 ---
 
+## භාතිය හස්තියා ජීවිතක්ෂයට
+
+
+*Published on: July 15, 2025, 09:39 AM*
+
+වෙඩි වැදී තුවාල ලබා අසාධ්‍ය තත්ත්වයේ සිටි ‘භාතිය’ හස්තියා අද(15දා) පෙරවරුවේ ජීවිතක්ෂයට පත්ව තිබේ.
+
+
+
+
+
+
+
+![Image](https://bmkltsly13vb.compat.objectstorage.ap-mumbai-1.oraclecloud.com/cdn.ada.lk/assets/uploads/image_c493ee66a6.jpg)
+
+
+
+---
+
 ## සංචාරක වීසා හරහා ලංකාවට ඇවිත් වෙන වැඩ කළ විදේශීය කාන්තාවන් 10ක් අල්ලයි
 
 
