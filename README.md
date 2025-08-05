@@ -56,6 +56,21 @@ The script will:
 
 ---
 
+## ලැයිස්තුගත හා නොවන සමාගම් සඳහා ආයේජන සීමාව ඉහළ දමයි
+
+
+*Published on: August 05, 2025, 09:59 AM*
+
+
+
+
+
+![Image](https://bmkltsly13vb.compat.objectstorage.ap-mumbai-1.oraclecloud.com/cdn.ada.lk/assets/uploads/image_f830db5fe1.jpg)
+
+
+
+---
+
 ## මාස 11කදී ෆාම් තෙල් මිල දෙගුණයකට වැඩි මිලකින් වැඩි වෙලා
 
 
