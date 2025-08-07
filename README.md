@@ -56,6 +56,21 @@ The script will:
 
 ---
 
+## පාර්ලිමේන්තුව අගෝස්තු 19 සිට 22 දක්වා රැස්වෙයි
+
+
+*Published on: August 07, 2025, 11:29 AM*
+
+
+
+
+
+![Image](https://bmkltsly13vb.compat.objectstorage.ap-mumbai-1.oraclecloud.com/cdn.ada.lk/assets/uploads/image_96ada5662e.jpg)
+
+
+
+---
+
 ## නව දන්ත වෛද්‍ය පත්වීම් කඩිනමින්
 
 
