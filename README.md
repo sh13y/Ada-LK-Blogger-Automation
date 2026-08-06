@@ -56,6 +56,36 @@ The script will:
 
 ---
 
+## සරසවි වරම් ලැබූවන්ට විශේෂ නිවේදනයක්
+
+
+*Published on: August 06, 2026, 02:15 PM*
+
+එහි අවසන් දිනය  අගෝස්තු 14 බව වැඩිදුරටත් විශ්වවිද්‍යාල ප්‍රතිපාදන කොමිෂන් සභාව දැනුම් දී සිටියි. මේ සම්බන්ධයෙන් වැඩිදුර තොරතුරු www.ugc.lk වෙත පිවිසීමෙන් ලබා ගැනීමට හැකි බවද දැනුම්දෙයි.( I J)
+
+
+
+![Image](https://bmkltsly13vb.compat.objectstorage.ap-mumbai-1.oraclecloud.com/cdn.ada.lk/assets/uploads/image_9aed9742d2.jpg)
+
+
+
+---
+
+## උසස්පෙළ හා ශිෂ්‍යත්ව විභාග කල් නොයයි
+
+
+*Published on: August 06, 2026, 12:51 PM*
+
+ආපදා කළමනාකරණ මධ්‍යස්ථානය, විභාග දෙපාර්තමේන්තුව සහ ජාතික ගොඩනැඟිලි පර්යේෂණ සංවිධානය ඇතුළු අදාළ ආයතනවල නිලධාරීන්ගේ සහභාගීත්වයෙන් ඊයේ පැවැති විශේෂ සාකච්ඡාවකින් පසුව මෙම තීරණය ගෙන ඇති බවයි සඳහන් වන්නේ.( I J)
+
+
+
+![Image](https://bmkltsly13vb.compat.objectstorage.ap-mumbai-1.oraclecloud.com/cdn.ada.lk/assets/uploads/image_26dc02ad3f.jpg)
+
+
+
+---
+
 ## සූදු බෙව් අඩවි 24ක් තහනම්
 
 
