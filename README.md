@@ -56,6 +56,19 @@ The script will:
 
 ---
 
+## යතුරුපැදි අනතුරු දෙකකින් තරුණයන් දෙදෙනෙක් මරුට
+
+
+*Published on: August 11, 2026, 09:01 AM*
+
+
+
+![Image](https://bmkltsly13vb.compat.objectstorage.ap-mumbai-1.oraclecloud.com/cdn.ada.lk/assets/uploads/image_af9061682a.jpg)
+
+
+
+---
+
 ## රත්මලානේ සයිමාගේ අපරාධ ලැයිස්තුව පොලීසිය කියයි
 
 
