@@ -56,6 +56,36 @@ The script will:
 
 ---
 
+## මහනුවර දළඳා පෙරහරේ ආරක්ෂාවට 8000ක්
+
+
+*Published on: August 14, 2026, 05:26 PM*
+
+මහනුවර දළඳා පෙරහරේ ආරක්ෂක රාජකාරී සඳහා පොලිස් නිලධාරීන් 6200ක්, පොලිස් විශේෂ කාර්ය බළකා සාමාජිකයන්564ක්, ත්‍රිිවිධ හමුදා නිලධාරීන් 1200ක් හා සිවිල් ආරක්ෂක නිලධාරින් 29ක් යොදා ගැනීමට සැලසුම් කර ඇති බව පොලිස් මූලස්ථානය කියයි. එසේම දළඳා පෙරහර වෙනුවෙන් මහනුවර විශේෂ රථවාහන සැලැස්මක්ද ක්‍රියාත්මක කරන බව පොලිස් මූලස්ථානය පවසයි.
+
+
+
+
+
+![Image](https://bmkltsly13vb.compat.objectstorage.ap-mumbai-1.oraclecloud.com/cdn.ada.lk/assets/uploads/image_b107cb90a3.jpg)
+
+
+
+---
+
+## රු. මිලියන 2500ක වටිනාකමකින් ආදායම් ව්‍යාපෘති 100ක්
+
+
+*Published on: August 14, 2026, 04:23 PM*
+
+
+
+![Image](https://bmkltsly13vb.compat.objectstorage.ap-mumbai-1.oraclecloud.com/cdn.ada.lk/assets/uploads/image_3a78c96e4f.jpg)
+
+
+
+---
+
 ## දිත්වා හානි වූ නිවාස හදන්න රු.බි. 25ක් වැය කරලා
 
 
