@@ -56,6 +56,19 @@ The script will:
 
 ---
 
+## ශිරාන් බාසික් කොළඹ මධ්‍යම අපරාධ විමර්ශන ඒකකයට
+
+
+*Published on: August 15, 2026, 11:13 AM*
+
+
+
+![Image](https://bmkltsly13vb.compat.objectstorage.ap-mumbai-1.oraclecloud.com/cdn.ada.lk/assets/uploads/image_81e215f48e.jpg)
+
+
+
+---
+
 ## රු. කෝටි 49ක් ගිල දැමූ ඊ ග්‍රාම නිලධාරී ව්‍යාපෘතිය
 
 
