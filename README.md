@@ -56,6 +56,19 @@ The script will:
 
 ---
 
+## දෙහිවල වයස්ගතම ගැහැණු ජිරාෆ් සත්වයා මිය යයි
+
+
+*Published on: August 19, 2026, 06:06 PM*
+
+
+
+![Image](https://bmkltsly13vb.compat.objectstorage.ap-mumbai-1.oraclecloud.com/cdn.ada.lk/assets/uploads/image_35df946aca.jpg)
+
+
+
+---
+
 ## කැනඩාවට බදු පැනවීම දින තුනකින් කල් දමයි
 
 
