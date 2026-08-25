@@ -56,6 +56,25 @@ The script will:
 
 ---
 
+## 2027 අවුරුදු නැකැත් සීට්ටුව ප්‍රකාශයට
+
+
+*Published on: August 25, 2026, 03:01 PM*
+
+2027 වර්ෂය සඳහා වන සිංහල අලුත් අවුරුදු නැකැත් සීට්ටුව, බුද්ධශාසන,  ආගමික හා සංස්කෘතික කටයුතු අමාත්‍යංශය ප්‍රකාශයට පත් කර තිබේ.
+
+
+
+
+
+
+
+![Image](https://bmkltsly13vb.compat.objectstorage.ap-mumbai-1.oraclecloud.com/cdn.ada.lk/assets/uploads/image_78d0f17ef5.jpg)
+
+
+
+---
+
 ## බස් ලලිතිගේ අපරාධ ලැයිස්තුව මෙන්න
 
 
