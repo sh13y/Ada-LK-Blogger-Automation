@@ -56,6 +56,19 @@ The script will:
 
 ---
 
+## කෙහෙල්බද්දර පද්මේ රිමාන්ඩ්
+
+
+*Published on: August 25, 2026, 05:52 PM*
+
+
+
+![Image](https://bmkltsly13vb.compat.objectstorage.ap-mumbai-1.oraclecloud.com/cdn.ada.lk/assets/uploads/image_9e6e0576e3.jpg)
+
+
+
+---
+
 ## කටුනායක ගුවන් තොටුපොළේ සංචාර සේවා කවුන්ටර් 6ට කැබිනට් අනුමැතිය
 
 
