@@ -56,6 +56,19 @@ The script will:
 
 ---
 
+## 22 ඉදිරිපත් කළේ අධිකරණ පද්ධතියේ පුළුල් ප්‍රතිසංස්කරණයක් සිදු කිරීමේ අරමුණින්
+
+
+*Published on: August 25, 2026, 08:01 PM*
+
+
+
+![Image](https://bmkltsly13vb.compat.objectstorage.ap-mumbai-1.oraclecloud.com/cdn.ada.lk/assets/uploads/image_8aca90c066.jpg)
+
+
+
+---
+
 ## කෙහෙල්බද්දර පද්මේ රිමාන්ඩ්
 
 
