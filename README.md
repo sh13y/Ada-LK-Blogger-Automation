@@ -56,6 +56,42 @@ The script will:
 
 ---
 
+## ගල් අඟුරු රැගත් නැවක් පැමිණෙයි
+
+
+*Published on: September 04, 2026, 07:31 PM*
+
+මෙම වසරේ දෙවන කාර්තුවට නොරෝච්චෝල ලක්විජය බලා‍ගාරයට ගල් අඟුරු රැගෙන එන ප්‍රථම නෞකාව පුත්තලමට පැමිණ තිබේ.
+
+මේ වන විට IVS TRADER නෞකාව පුත්තලමට පැමිණ ඇත. අදාළ ආයතන සමඟ සිදු කරන තත්ත්ව කටයුතු කඩිනමින් අවසන් කර අද පස්වරුවේදී ‍ගල් අඟුරු ගොඩබෑම ආරම්භ කිරීමට නියමිතය.
+
+ඉදිරි දින ගණනකට නොරොච්චෝලේ බලාගාරය සතුව ගල් අඟුරු තිබෙන බව අමාත්‍යවරයා විසින් නිරීක්ෂණය කරන ලදී.
+
+
+
+
+
+
+
+![Image](https://bmkltsly13vb.compat.objectstorage.ap-mumbai-1.oraclecloud.com/cdn.ada.lk/assets/uploads/image_5322207563.jpg)
+
+
+
+---
+
+## මේවා බෙල්ල ගහලා යන වැඩ
+
+
+*Published on: September 04, 2026, 11:47 AM*
+
+
+
+![Image](https://bmkltsly13vb.compat.objectstorage.ap-mumbai-1.oraclecloud.com/cdn.ada.lk/assets/uploads/image_d8c438e9f6.jpg)
+
+
+
+---
+
 ## එල් නිනෝවෙන් හානි වූ වගා සඳහා වන්දි ගෙවීම ලබන සතියේ සිට
 
 
