@@ -56,6 +56,19 @@ The script will:
 
 ---
 
+## දුම්රියක ගැටී පුද්ගලයෙකු ජීවිතක්ෂයට
+
+
+*Published on: September 12, 2026, 08:37 AM*
+
+
+
+![Image](https://bmkltsly13vb.compat.objectstorage.ap-mumbai-1.oraclecloud.com/cdn.ada.lk/assets/uploads/image_7135ede369.jpg)
+
+
+
+---
+
 ## හය ශ්‍රේණි‌යේ අධ්‍යාපන ප්‍රතිසංස්කරණ ක්‍රියාත්මක නොවීමෙන් රු. කෝටි 27ක්
 
 
